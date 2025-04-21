@@ -1,6 +1,8 @@
+import 'package:adminpannel/routes/routes.dart';
 import 'package:adminpannel/utils/constants/sizes.dart';
 import 'package:adminpannel/utils/constants/text_strings.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 class LoginFormWidget extends StatelessWidget {
@@ -52,7 +54,7 @@ class LoginFormWidget extends StatelessWidget {
                   ],
                 ),
                 TextButton(
-                  onPressed: () {},
+                  onPressed: () => Get.toNamed(TRoutes.forgetPassword),
                   child: Text(TTexts.forgetPassword),
                 ),
               ],

@@ -1,6 +1,6 @@
 class TRoutes {
   static const login = '/login';
-  static const forgetPassword = '/forget-Password';
+  static const forgetPassword = '/forget-Password/';
   static const resetPassword = '/reset-Password';
   static const dashboard = '/dashboard';
   static const media = '/media';
@@ -21,5 +21,7 @@ class TRoutes {
   static const createbrands = '/createbrands';
   static const editbrands = '/editbrands';
 
-  static List sideBarMenuItem = [];
+  static List sideBarMenuItem = [
+    dashboard,
+  ];
 }
